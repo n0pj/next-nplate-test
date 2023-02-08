@@ -69,7 +69,7 @@
   "scripts": {
     "start": "NODE_ENV=\\\"development\\\" yarn gulp StartServer",
     "watch": "NODE_ENV=\\\"development\\\" yarn gulp StartWatch",
-    "build": "NODE_ENV=\\\"production\\\" yarn gulp StartBuild",
+    "build": "NODE_ENV=\\\"production\\\" yarn gulp StartBuild && yarn next:build",
     "setup": "node setup",
     "next:dev": "next dev",
     "next:build": "next build",
